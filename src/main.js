@@ -39,7 +39,7 @@ import Users from './collections/Users';
         new UserLink({el: "#userinfo"});
         new CrownstoneLink({el: "#crownstoneinfo"});
 
-        Backbone.history.start({pushState: true, root: '/HeroSelector/'}); //Change to your root URL
+        Backbone.history.start({pushState: true, root: '/0887504/smarthome/'}); //Change to your root URL
     };
 
     window.addEventListener('load', init);
